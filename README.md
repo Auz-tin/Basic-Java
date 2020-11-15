@@ -1,2 +1,2 @@
 # firststep
-REPOSITORY with basic codes
+REPOSITORY with basic JAVA codes
