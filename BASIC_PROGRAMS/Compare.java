@@ -1,6 +1,6 @@
 package BASIC_PROGRAMS;
 
-public class A1 {
+public class Compare {
 
 	public static void main(String[] args) {
 		
