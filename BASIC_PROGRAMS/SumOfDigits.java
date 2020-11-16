@@ -1,7 +1,10 @@
 package BASIC_PROGRAMS;
 import java.util.Scanner;
 
+// sum of the digits in the given number
+
 public class SumOfDigits {
+	
 	public static void main(String[] args) {
 		
 		Scanner s=new Scanner(System.in);
