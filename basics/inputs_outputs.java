@@ -1,7 +1,7 @@
-package BASIC;
+package basics;
 import java.util.Scanner;
 
-public class A {
+public class inputs_outputs {
 
 	public static void main(String[] args) {
 		
@@ -20,7 +20,7 @@ public class A {
 		String city=sc.nextLine();
 		System.out.println("Your city:"+city);	
 		
-		System.out.println("\nEnter your initial: ");
+		System.out.println("\nEnter your initials: ");
 		char inti=sc.next().charAt(0);
 		System.out.println("Your inti:"+inti);	
 		
@@ -28,9 +28,9 @@ public class A {
 		double sal=sc.nextDouble();
 		System.out.println("Your sal:"+sal);	
 		
-		System.out.println("\ncorrect: ");
-		boolean ok=sc.nextBoolean();
-		System.out.println(ok);
+		System.out.println("\nAre you employed (True/ False): ");
+		boolean emp=sc.nextBoolean();
+		System.out.println(emp);
 		
 	}
 }
