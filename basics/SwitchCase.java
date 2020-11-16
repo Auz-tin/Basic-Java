@@ -8,16 +8,16 @@ public class SwitchCase {
 		System.out.println("x: "+x);
 		switch(x) {
 			case 0:
+				System.out.println("zero");
+				break;	
 			case 1:
-				System.out.println("Binary");
+				System.out.println("one");
 				break;
 			case 2:
-				System.out.println("2");
+				System.out.println("two");
 				break;
-			case 3:
-				System.out.println("3");
 			default:
-				System.out.println("default");
+				System.out.println("more than two");
 				break;
 		}
 		
