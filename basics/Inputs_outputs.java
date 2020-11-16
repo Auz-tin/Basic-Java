@@ -1,7 +1,7 @@
 package basics;
 import java.util.Scanner;
 
-public class inputs_outputs {
+public class Inputs_outputs {
 
 	public static void main(String[] args) {
 		
