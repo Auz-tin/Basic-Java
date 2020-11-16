@@ -1,6 +1,6 @@
 package BASIC_PROGRAMS;
 
-public class A2 {
+public class SumOfDigits_1 {
 
 	public static void main(String[] args) {
 		
