@@ -1,0 +1,28 @@
+Access modifiers: public, protected, and private (class, methods, variable)
+
+MOST RESTRICTIVE						LEAST RESTRICTIVE   
+private	->	default	->	protected	->	public
+LEAST ACCESSIBLE							MOST ACCESSIBLE
+
+•	public		(global level)
+  - public method in different packages can be accessed but class should be public to access method within it.
+•	protected
+  - protected method in different packages can be accessed by extending the class, but class should be visible.
+  - While creating the object for super class in different package use child reference only. Upcasting not allowed
+    subclass obj=new subclass();
+  - Can be accessed anywhere within package
+•	private	(class level)
+  - Only within the class
+•	(default)	(package level)
+  - Can be accessed anywhere within package
+  
+Modifier requiring override: abstract (class, methods)
+
+
+Modifier restricting to one instance: static (methods, variable)
+
+
+Modifier prohibiting value modification: final (class, methods, variable)
+- final class prevent extends
+- final method prevent overriding
+- final variable prevent more than one assignment
