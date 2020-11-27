@@ -3,6 +3,7 @@
 - A interface can have default and static method (contains method body)
 - A interface cannot be instantiated
 - default method should be public/(default), and it can be overridden
+- to access variables, static method use.. (InterfaceName.variable/method)
 _____________________________________________________________________________________
 
 - A interface can extends multiple interfaces
