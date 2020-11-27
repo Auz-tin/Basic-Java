@@ -1,0 +1,8 @@
+- abstract class can have both abstract and non-abstract methods
+- non-abstract methods should be public/(default) and abstract
+_________________________________________________________________________________________
+
+- A class can extents only one abstract class
+- Class extending abstract class should give body for abstract class
+  else, that class should be declared abstract
+- Overriding method visibility should not reduced.
