@@ -26,3 +26,5 @@ Modifier prohibiting value modification: final (class, methods, variable)
 - final class prevent extends
 - final method prevent overriding
 - final variable prevent more than one assignment
+
+Modifier forcing strict floating point behavior: strictfp
