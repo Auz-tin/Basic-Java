@@ -1,0 +1,32 @@
+- Taking different forms ,same method but different functionality
+
+TYPES: 
+- compile time polymorphism/ method overloading/ early binding/ Static polymorphism
+- run time polymorphism  / method overriding  / late binding / Dynamic polymorphism
+
+METHOD SIGNATURE
+•	Method signature contains method name and arguments
+•	In same class two methods of same method signature is not allowed 
+  (don’t consider return type, only consider method name and arguments)
+  
+OVER LOADING (methods, constructors)
+•	Same method name different argument type (different method signature)
+•	Method resolution takes place at compile time (Reference Type is considered)
+•	Over-loading happens within classes
+•	In overloading the exact matching method is considered first. If exact method is not found based on datatype, 
+  then data type is promoted and tries again, even then not found then rise compile time error.
+
+OVER RIDING (Only methods)
+•	Same method name and argument (same method signature) and same return type gives overriding
+•	Method resolution takes place at run time (Object Type is considered)
+•	Overriding is only applicable for methods, (variable resolution is based on reference type (compile time) 
+  whatever the case (static or non static) the resolution taken care by compiler based on reference type).
+•	Overriding happens between classes
+•	Scope of visibility during overriding cannot be reduced
+•	Overriding methods cannot be static, final, private
+
+METHOD HIDING (Only methods)
+o	Both methods should be static to produce method hiding
+o	It does not override the parent class methods
+o	Method resolution is based on the reference type (compile time)
+o	Early binding, Static polymorphism, Compile time polymorphism
