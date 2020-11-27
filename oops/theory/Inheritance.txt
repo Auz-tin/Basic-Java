@@ -1,16 +1,16 @@
 1.	IS – A relationship
 2.	Performed by extends keyword
-3.	Object class is root class/ super class for every java class
-	  11 methods available in Object class which is under (java.lang.Object)
-
+3.	(Child class/derived class/ subclass) extends (Parent class/base class/ superclass)
+4.	Object class is root class/ super class for every java class
+	11 methods available in Object class which is under (java.lang.Object)
 
 TYPES OF INHERITANCE
 •	Single inheritance			A->B
-•	Multi-level inheritance		A->B->C
+•	Multi-level inheritance			A->B->C
 •	Hierarchical inheritance		A->B , A->C
 •	Multiple inheritance
-  NOT SUPPORTED IN JAVA due to ambiguity A,B->C
-  if both A and B has methods of same names which method the child will inherit?
+  	NOT SUPPORTED IN JAVA due to ambiguity 	A,B->C
+  	if both A and B has methods of same names which method the child will inherit?
 
 
 OBJECT CREATION
@@ -26,3 +26,13 @@ OBJECT CREATION
     
 4.ChildClass d = ( ChildClass) c;   // downcasting
     Parent class + Child class members + Child class overriding
+
+CONSTRUCTOR CHAINING:
+If object created for subclass, super class non-parametrised constructor is called first
+then sub class non-parametrised constructor is called.
+
+RULES:
+1. If there is constructor, there should be a non-parametrised constructor.
+2. Parentclass should not be final.
+3. overriding method should not be final.
+4. overriding method visibility cannot be reduced
