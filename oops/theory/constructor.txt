@@ -2,3 +2,7 @@
 - should be public/(default)/private
 - cannot be static, final
 - can be overloaded
+- Types: parametrized, non-parametrized
+- this() is used to access different constructors within class.
+- super() is used to constructors of superclass.
+
