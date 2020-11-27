@@ -1,0 +1,13 @@
+- All variables inside interface are public, static, final
+- All methods inside interface are public abstract (no method body)
+- A interface can have default and static method (contains method body)
+- A interface cannot be instantiated
+- default method should be public/(default), and it can be overridden
+_____________________________________________________________________________________
+
+- A interface can extends multiple interfaces
+- A class can extends only one class
+- A class can implements multiple interfaces
+- A class can extends a class and implements interfaces in respective order
+- A class implementing interface should implement all the methods in interface
+  else, the class should be abstract.
