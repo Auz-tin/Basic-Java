@@ -12,3 +12,4 @@ ________________________________________________________________________________
 - A class can extends a class and implements interfaces in respective order
 - A class implementing interface should implement all the methods in interface
   else, the class should be abstract.
+- Overriding method visibility should not reduced.
