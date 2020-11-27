@@ -1,0 +1,4 @@
+- name should be class name
+- should be public/(default)/private
+- cannot be static, final
+- can be overloaded
