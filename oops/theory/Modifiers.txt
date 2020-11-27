@@ -1,9 +1,8 @@
 Access modifiers: public, protected, and private (class, methods, variable)
 
-MOST RESTRICTIVE						LEAST RESTRICTIVE   
-private	->	default	->	protected	->	public
-LEAST ACCESSIBLE							MOST ACCESSIBLE
-
+MOST RESTRICTIVE/LEAST ACCESSIBLE						LEAST RESTRICTIVE/MOST ACCESSIBLE  
+          private  	->	default	  ->	protected	  ->	public
+							
 •	public		(global level)
   - public method in different packages can be accessed but class should be public to access method within it.
 •	protected
@@ -28,3 +27,22 @@ Modifier prohibiting value modification: final (class, methods, variable)
 - final variable prevent more than one assignment
 
 Modifier forcing strict floating point behavior: strictfp
+
+SUPER
+o	super()		-	calls constructor of parent class & should be firstline in child class constructor
+•	super() cannot be used along with this() ,multiple this() cannot be used
+•	super is keyword used to call class parent methods, variables
+o	super.variable	-	Access parent variables
+o	super.method	-	Access parent methods
+•	super can be used with this
+•	super cannot be used under static context
+
+THIS
+o	this()		-	calls constructor of current class & should be firstline in child class constructor
+•	super() cannot be used along with this() ,multiple this() cannot be used
+•	this points current instance/ object, this can be used to call methods / variables of current instance
+o	this.variable	-	current instance variables
+o	this.method	-	current instance methods
+o	super can be used with this 
+o	this cannot be used under static context
+
