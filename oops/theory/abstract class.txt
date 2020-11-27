@@ -1,5 +1,5 @@
 - abstract class can have both abstract and non-abstract methods
-- non-abstract methods should be public/(default) and abstract
+- non-abstract methods should be public/(default)/protected and abstract
 _________________________________________________________________________________________
 
 - A class can extents only one abstract class
