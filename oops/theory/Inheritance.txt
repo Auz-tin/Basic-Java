@@ -1,0 +1,28 @@
+1.	IS – A relationship
+2.	Performed by extends keyword
+3.	Object class is root class/ super class for every java class
+	  11 methods available in Object class which is under (java.lang.Object)
+
+
+TYPES OF INHERITANCE
+•	Single inheritance			A->B
+•	Multi-level inheritance		A->B->C
+•	Hierarchical inheritance		A->B , A->C
+•	Multiple inheritance
+  NOT SUPPORTED IN JAVA due to ambiguity A,B->C
+  if both A and B has methods of same names which method the child will inherit?
+
+
+OBJECT CREATION
+1.ParentClass a = new ParentClass();
+    parent class members called (no overriding)
+    
+2.ChildClass b = new ChildClass();
+    Parent class + Child class members + Child class overriding
+    
+3.ParentClass c = new ChildClass(); // upcasting
+    Parent class members + Child class overriding
+    Child class cannot be referenced to hold parent class object
+    
+4.ChildClass d = ( ChildClass) c;   // downcasting
+    Parent class + Child class members + Child class overriding
