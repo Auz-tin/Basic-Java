@@ -1,0 +1,30 @@
+FOUR PILLARS OF OOP
+
+ABSTRACTION:
+- Abstraction is a process where you show only “relevant” data and “hide” unnecessary details/ complexities.
+- is design or interface level.
+- focus on what should be done
+- shows client what it can do rather how
+- In java Abstract class is partial Abstraction
+          Interface is 100% Abstraction
+
+ENCAPSULATION: 
+- Encapsulation hides implementation details/ internal working of the class
+- Encapsulation simply means binding object state(fields) and behaviour(methods) together.
+- is mplementation level.
+- focus on how should be done
+- prevent outsiders access it directly.
+- In java, every class is encapsulated (binding variables and methods) done by private, protected and public
+  If every data member is private, then it is called as Tightly encapsulated class
+
+POLYMORPHISM:
+- Provides different functionality based on
+  1. data (overloading)
+  2. object (overriding)
+  
+HIERARHY:
+
+- generalization (inheritance) (is-a , type-of)
+- association (aggregation, composition) (has-a, part-of, whole-part)
+
+
