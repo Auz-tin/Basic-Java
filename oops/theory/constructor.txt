@@ -1,6 +1,7 @@
 - name should be class name
 - should be public/(default)/private/protected
 - cannot be static, final
+- it does not return any value.
 - can be overloaded
 - Types: parametrized, non-parametrized
 - this() is used to access different constructors within class.
