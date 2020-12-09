@@ -30,7 +30,7 @@ Modifier forcing strict floating point behavior: strictfp
 
 SUPER
 o	super()		-	calls constructor of parent class & should be firstline in child class constructor
-•	super() cannot be used along with this() ,multiple this() cannot be used
+•	super() cannot be used along with this() ,multiple super() cannot be used
 •	super is keyword used to call class parent methods, variables
 o	super.variable	-	Access parent variables
 o	super.method	-	Access parent methods
