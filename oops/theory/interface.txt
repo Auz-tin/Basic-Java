@@ -14,3 +14,4 @@ ________________________________________________________________________________
 - A class implementing interface should implement all the methods in interface
   else, the class should be abstract.
 - Overriding method visibility should not reduced.
+- A class can have both extends and implements at same time, But you need to declare extends before implements
