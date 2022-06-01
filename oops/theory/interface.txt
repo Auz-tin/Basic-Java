@@ -4,6 +4,7 @@
 - A interface cannot be instantiated
 - default method should be public/(default), and it can be overridden
 - to access variables, static method use.. (InterfaceName.variable/method)
+- abstract methods can be only public or default access modifier
 _____________________________________________________________________________________
 
 - A interface can extends multiple interfaces
