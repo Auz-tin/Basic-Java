@@ -36,3 +36,4 @@ RULES:
 2. Parentclass should not be final.
 3. overriding method should not be final.
 4. overriding method visibility cannot be reduced
+5. overriding method should not be static.
